@@ -3,7 +3,7 @@ jobs:
   pool:
     vmImage: 'ubuntu-latest'
   steps:
-  - script: echo hello from Linux
+  - script: echo hello rinchen from Linux
   - script: ls -lart
 
 - job: Windows
