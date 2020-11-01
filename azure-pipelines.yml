@@ -5,6 +5,11 @@ jobs:
   steps:
   - script: echo hello rinchen from Linux
   - script: ls -lart
+  - script: lscpu
+  - script: free -gt
+  - script: top
+  - script: uname -a
+
 
 - job: Windows
   pool:
