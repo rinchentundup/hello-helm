@@ -7,7 +7,6 @@ jobs:
   - script: ls -lart
   - script: lscpu
   - script: free -gt
-  - script: top
   - script: uname -a
 
 
